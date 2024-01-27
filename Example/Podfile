@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftJsonViewer_Tests' do
+  pod 'SwiftJsonViewer', :path => '../'
+  
+  
+end
