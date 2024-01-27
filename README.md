@@ -16,13 +16,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 SwiftJsonViewer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod 'SwiftJsonViewer'
 ```
 
 ## Author
 
-psheleshrawat, sheleshrawat@gmail.com
+sheleshr, sheleshrawat@gmail.com
 
 ## License
 
