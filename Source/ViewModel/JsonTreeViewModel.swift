@@ -163,7 +163,7 @@ public class JsonTreeViewModel:ObservableObject{
                 
                 if let obj = dic.getValue(forKey: keyStr), 
                     obj.type == .object,
-                    var objDic = obj as? (JsonData & KeyValueComplaint)
+                   let objDic = obj as? (JsonData & KeyValueComplaint)
                 {
                     
                     var treeNodeViewType = TreeNodeViewType.other
@@ -174,7 +174,7 @@ public class JsonTreeViewModel:ObservableObject{
                     if myType == nil{
                         objDic.set(value: "Dictionary", forKey: "__ELEMENT_TYPE__")
                     }
-                    treeNodeViewType = TreeNodeViewType(rawValue: (myType as? String) ?? "Dictionary") ?? .other
+                    treeNodeViewType = TreeNodeViewType(rawValue: (myType) ?? "Dictionary") ?? .other
                     isExpanded = objDic.getValue(forKey: "__isExpanded__") as? String == "true" ? true : false
                     
                     let lastNode = i==((totalKeyCount-1)-extraKeyRemainingToFound)//allKeys.count-2

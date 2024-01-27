@@ -20,27 +20,27 @@ public protocol JsonData {
     func toDictionary() -> (JsonData & KeyValueComplaint)?
 }
 public extension JsonData {
-    public func toString() -> JsonData {
+    func toString() -> JsonData {
         return "\(self)"
     }
-    public var type:JsonDataType{
+    var type:JsonDataType{
         get{
             return .other
         }
     }
-    public func object() -> Self {
+    func object() -> Self {
         return self
     }
-    public func mutableContainer()->JsonData {
+    func mutableContainer()->JsonData {
         if Self.self == NSDictionary.self {
-            return (self as! NSDictionary).mutableContainer()
+            return (self as! NSDictionary).mutableCopy() as! NSDictionary
         }else if Self.self == NSArray.self {
-            return (self as! NSArray).mutableContainer()
+            return (self as! NSArray).mutableCopy() as! NSArray
         }else{
             return self
         }
     }
-    public func toDictionary()-> (JsonData & KeyValueComplaint)?{
+    func toDictionary()-> (JsonData & KeyValueComplaint)?{
         if self.type == .object
         {
             return (self as? NSDictionary)
@@ -63,7 +63,7 @@ public extension JsonData {
             return nil
         }
     }
-    public func sort(by:(_ obj1:JsonData, _ obj2:JsonData)->Bool) -> JsonData?{
+    func sort(by:(_ obj1:JsonData, _ obj2:JsonData)->Bool) -> JsonData?{
         if self.type == .array{
             let arr = NSMutableArray(array: (self as? NSArray) ?? NSMutableArray())
             var i = 0
@@ -123,6 +123,6 @@ extension NSDictionary:KeyValueComplaint{
         self.value(forKey: key.toString() as! String) as? any JsonData
     }
     public func allKeys() -> JsonData?{
-        return (self.allKeys as? NSArray) as? JsonData
+        return (self.allKeys as? NSArray)
     }
 }
