@@ -32,9 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SwiftJsonViewer/Source/**/*.swift'
   s.swift_version = '5.0'
-  s.platforms = {
-	"ios" : "16.0"
-  }
+  s.platforms = { :ios => "16.0" }
   
     s.resource_bundles = {
      'SwiftJsonViewer' => ['SwiftJsonViewer/Source/**/*.png']
