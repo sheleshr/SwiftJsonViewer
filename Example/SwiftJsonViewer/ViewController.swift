@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             }
             
             if let obj = try? JSONSerialization.jsonObject(with: data,options: .mutableContainers),
-               var object = (obj as? any JsonData)?.mutableContainer()
+               let object = (obj as? any JsonData)?.mutableContainer()
             {
 
                 return object
