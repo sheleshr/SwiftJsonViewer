@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftJsonViewer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SwiftJsonViewer is a SwiftUI view that is used to display JsonData in a tree structure format'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   }
   
     s.resource_bundles = {
-     'SwiftJsonViewer' => ['SwiftJsonViewer/Source/Assets/*.png']
+     'SwiftJsonViewer' => ['SwiftJsonViewer/Source/**/*.png']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
