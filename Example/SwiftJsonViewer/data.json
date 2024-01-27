@@ -1,0 +1,52 @@
+{
+  "id": 4051,
+  "name": "abc",
+  "email": "abc@gmail.com",
+  "password": "Test@123",
+  "about": null,
+  "token": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "obj1": {
+    "id": 4051,
+    "name": "abc",
+    "email": "abc@gmail.com",
+    "password": "Test@123",
+    "lng": 0,
+    "lat": 0,
+    "dob": null,
+    "gender": 0,
+    "obj2": {
+      "id": 4051,
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "Test@123",
+      "obj3": {
+        "id": 4051,
+        "name": "abc",
+        "email": "abc@gmail.com",
+        "password": "Test@123",
+        "about": null,
+        "token": "7f471974-ae46-4ac0-a882-1980c300c4d6 7f471974-ae46-4ac0-a882-1980c300c4d6 7f471974-ae46-4ac0-a882-1980c300c4d6 7f471974-ae46-4ac0-a882-1980c300c4d6",
+        "country": null,
+        "location": null,
+        
+      }
+    },
+    "key1": {
+      "email": "abc@gmail.com",
+      "password": "Test@123",
+      "about": null,
+      "token": "7f471974-ae46-4ac0-a882-1980c300c4d6",
+      "country": null,
+      "location": null,
+      "lng": 0,
+      "lat": 0,
+      
+    }
+  }
+}

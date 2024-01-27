@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of SwiftJsonViewer.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/psheleshrawat/SwiftJsonViewer",
+  "homepage": "https://github.com/sheleshr/SwiftJsonViewer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "psheleshrawat": "sheleshrawat@gmail.com"
+    "sheleshr": "sheleshrawat@gmail.com"
   },
   "source": {
-    "git": "https://github.com/psheleshrawat/SwiftJsonViewer.git",
+    "git": "https://github.com/sheleshr/SwiftJsonViewer.git",
     "tag": "0.1.0"
   },
   "platforms": {

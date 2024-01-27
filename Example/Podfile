@@ -1,6 +1,13 @@
 use_frameworks!
-target 'SwiftJsonViewer_Tests' do
+
+platform :ios, '10.0'
+
+target 'SwiftJsonViewer_Example' do
   pod 'SwiftJsonViewer', :path => '../'
-  
-  
+
+  target 'SwiftJsonViewer_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

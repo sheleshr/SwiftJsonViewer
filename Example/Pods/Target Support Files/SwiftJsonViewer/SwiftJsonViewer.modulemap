@@ -1,0 +1,6 @@
+framework module SwiftJsonViewer {
+  umbrella header "SwiftJsonViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

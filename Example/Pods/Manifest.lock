@@ -1,0 +1,16 @@
+PODS:
+  - SwiftJsonViewer (0.1.0)
+
+DEPENDENCIES:
+  - SwiftJsonViewer (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftJsonViewer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftJsonViewer: 16958bbfa93cec881d037c728446d70e17adc09b
+
+PODFILE CHECKSUM: 1221736a201f50f5ed9a087d7e79514e48e2cb68
+
+COCOAPODS: 1.11.3

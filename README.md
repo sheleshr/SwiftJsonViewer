@@ -1,6 +1,6 @@
 # SwiftJsonViewer
 
-[![CI Status](https://img.shields.io/travis/psheleshrawat/SwiftJsonViewer.svg?style=flat)](https://travis-ci.org/psheleshrawat/SwiftJsonViewer)
+[![CI Status](https://img.shields.io/travis/sheleshr/SwiftJsonViewer.svg?style=flat)](https://travis-ci.org/sheleshr/SwiftJsonViewer)
 [![Version](https://img.shields.io/cocoapods/v/SwiftJsonViewer.svg?style=flat)](https://cocoapods.org/pods/SwiftJsonViewer)
 [![License](https://img.shields.io/cocoapods/l/SwiftJsonViewer.svg?style=flat)](https://cocoapods.org/pods/SwiftJsonViewer)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftJsonViewer.svg?style=flat)](https://cocoapods.org/pods/SwiftJsonViewer)
@@ -16,7 +16,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 SwiftJsonViewer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```swift
+```ruby
 pod 'SwiftJsonViewer'
 ```
 
