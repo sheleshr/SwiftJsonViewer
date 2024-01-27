@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/sheleshr/SwiftJsonViewer'
-  # s.screenshots     = 'https://shorturl.at/lmNT1', 'https://shorturl.at/dwzJP'
+  s.screenshots     = 'https://shorturl.at/lmNT1', 'https://shorturl.at/dwzJP'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sheleshr' => 'sheleshrawat@gmail.com' }
   s.source           = { :git => 'https://github.com/sheleshr/SwiftJsonViewer.git', :tag => s.version.to_s }
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.platforms = { :ios => "16.0" }
   
-    s.resource_bundles = {
+  s.resource_bundles = {
      'SwiftJsonViewer' => ['Source/**/*.png']
    }
 
@@ -42,5 +42,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-    s.frameworks = 'SwiftUI', 'Foundation', 'Combine'
+  s.frameworks = 'SwiftUI', 'Foundation', 'Combine'
 end
