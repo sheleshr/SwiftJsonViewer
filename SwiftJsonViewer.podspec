@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '16.0'
 
-  s.source_files = 'SwiftJsonViewer/Source/**/*.swift'
+  s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = { :ios => "16.0" }
   
     s.resource_bundles = {
-     'SwiftJsonViewer' => ['SwiftJsonViewer/Source/**/*.png']
+     'SwiftJsonViewer' => ['Source/**/*.png']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
