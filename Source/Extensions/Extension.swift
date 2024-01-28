@@ -123,6 +123,6 @@ extension NSDictionary:KeyValueComplaint{
         self.value(forKey: key.toString() as! String) as? any JsonData
     }
     public func allKeys() -> JsonData?{
-        return (self.allKeys as? NSArray)
+        return (self.allKeys as NSArray)
     }
 }
