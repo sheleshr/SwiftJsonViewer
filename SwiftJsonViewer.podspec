@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author           = { 'sheleshr' => 'sheleshrawat@gmail.com' }
   s.source           = { :git => 'https://sheleshr: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@github.com/sheleshr/SwiftJsonViewer.git', :tag => 'v0.1.1' }
   s.ios.deployment_target = '16.0'
-  s.source_files     = 'Source/**/*.swift'
+  s.source_files     = 'Source/*'
   s.swift_version    = '5.0'
   s.platforms        = { :ios => '16.0' }
   s.resource_bundles = { 'SwiftJsonViewer' => 'Source/**/*.png' }
