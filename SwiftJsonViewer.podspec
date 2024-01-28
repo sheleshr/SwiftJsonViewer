@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'SwiftJsonViewer is a SwiftUI view that is used to display JsonData in a tree structure format. User have to pass that valid JsonData (Array or Dictionary) object as a parameter in the JsonTreeViewModel.'
+SwiftJsonViewer is a SwiftUI view that is used to display JsonData in a tree structure format. User have to pass that valid JsonData (Array or Dictionary) object as a parameter in the JsonTreeViewModel.
                        DESC
 
   s.homepage         = 'https://github.com/sheleshr/SwiftJsonViewer'
