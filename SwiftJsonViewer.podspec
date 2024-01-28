@@ -22,21 +22,22 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/sheleshr/SwiftJsonViewer'
+  
   # s.screenshots     = 'https://shorturl.at/lmNT1', 'https://shorturl.at/dwzJP'
+  
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sheleshr' => 'sheleshrawat@gmail.com' }
   s.source           = { :git => 'https://github.com/sheleshr/SwiftJsonViewer.git', :tag => s.version.to_s }
+  
   s.social_media_url = 'https://shorturl.at/eiqwy'
 
   s.ios.deployment_target = '16.0'
 
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
-  s.platforms = { :ios => "16.0" }
+  s.platforms = { :ios => '16.0' }
   
-  s.resource_bundles = {
-     'SwiftJsonViewer' => 'Source/**/*.png'
-   }
+  s.resource_bundles = { 'SwiftJsonViewer' => 'Source/**/*.png' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
