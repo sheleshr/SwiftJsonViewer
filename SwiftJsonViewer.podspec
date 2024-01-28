@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/sheleshr/SwiftJsonViewer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sheleshr' => 'sheleshrawat@gmail.com' }
-  s.source           = { :http => 'https://sheleshr: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@github.com/sheleshr/SwiftJsonViewer.git', :tag => 'v0.1.1' }
+  s.source           = { :git => 'https://@github.com/sheleshr/SwiftJsonViewer.git', :tag => 'v0.1.1' }
   s.ios.deployment_target = '16.0'
   s.source_files     = 'Source/**/*.swift'
   s.swift_version    = '5.0'
